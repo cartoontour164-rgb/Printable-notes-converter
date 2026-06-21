@@ -325,12 +325,12 @@
 
 <script>
 // --- Force-subscribe config ---
-const SUBSCRIBE_CHECK_URL = 'https://YOUR-BACKEND-URL.example.com/check-subscription'; // your deployed server.js
+const SUBSCRIBE_CHECK_URL = 'https://printable-notes-converter.onrender.com'; // your deployed server.js
 
 // Map each chat_id used in your backend's CHANNEL_IDS to a public join link + display name.
 // Keys must match exactly what you put in the backend's CHANNEL_IDS env var.
 const CHANNEL_LINKS = {
-  '@your_channel_username': { name: 'Our Channel', link: 'https://t.me/your_channel_username' },
+  '@scout_regimant': { name: 'Our Channel', link: 'https://t.me/scout_regimant' },
   '@your_group_username':   { name: 'Our Group',   link: 'https://t.me/your_group_username' },
   // For private chats without a public @username, use an invite link as both key... actually use the
   // numeric chat_id as the key (must match CHANNEL_IDS), and the invite link as `link`:
